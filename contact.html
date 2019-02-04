@@ -9,65 +9,37 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-md">
-        <div class="container-fluid"><a class="navbar-brand" href="index.html">Josh</a><button class="navbar-toggler"
-                data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
-                    class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-        <div>
-            <div>
-                <span>CONTACT</span>
-            </div>
-        </div>
-        
-        <div>
-            <h>WHERE I WORK</h3>
-            <p><em>I'd love your feedback!</em></p>
-        
-            <div>
-                <div>
-                    <!-- Add Google Maps -->
-                    <div></div>
-                </div>
-                <div>
-                    <div>
-                        <i></i> Accra, Ghana<br>
-                        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +233246315746<br>
-                        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>
-                        Email:jkyereh@outlook.com<br>
-                    </div>
-                    <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-                    <form action="http://www.w3schools.com/w3css/form.asp" target="_blank">
-                        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-                            </div>
-                            <div class="w3-half">
-                                <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-                            </div>
-                        </div>
-                        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                        <button class="w3-btn w3-black w3-right w3-padding w3-section" type="submit">
-                            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                        </button>
-                    </form>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md">
+            <div class="container-fluid"><a class="navbar-brand" href="index.html">Josh</a>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </nav>
+    </div>
+    <p>If you ever wanna get in touch with me, try this simple template.</p>
+    <div class="container">
+        <form action="">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Surname">
+            <label>Country</label>
+            <input type="text" id="country" name="country" placeholder="Where you live">
+            <label>Subject</label>
+            <textarea id="subject" name="subject" placeholder="write something" style="height:200px"></textarea>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
