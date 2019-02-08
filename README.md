@@ -2,18 +2,20 @@
 
 ## Web Programming with Python and JavaScript
 
-This is a personal website about myself.
+This is a personal website about myself
 
-My site has 4 pages.
-- *Home*.
-- *About*.
-- *Gallery*.
-- *Contact*.
+My site has 4 pages
+- *Home*
+- *About*
+- *Gallery*
+- *Contact*
 
 I used a combination of bootstrap, css, w3-css, and other elements 
 
 This is actually what was required of me.
+
 >Requirements
+>
 >Alright, now it’s time to make your website your own. Design a personal webpage about yourself, one of your interests, or any other topic of your choice. 
 >
 >The subject matter, look and feel, and design of the site are entirely up to you, subject to the following requirements:
