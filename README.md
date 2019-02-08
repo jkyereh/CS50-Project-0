@@ -3,6 +3,7 @@
 ## Web Programming with Python and JavaScript
 
 This is a personal website about myself.
+
 My site has 4 pages.
 - *Home*.
 - *About*.
