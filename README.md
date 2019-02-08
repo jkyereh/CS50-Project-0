@@ -2,12 +2,12 @@
 
 ## Web Programming with Python and JavaScript
 
-This is a personal website about myself
+This is a personal website about myself.
 My site has 4 pages.
--*Home*
--*About*
--*Gallery*
--*Contact*
+-*Home*.
+-*About*.
+-*Gallery*.
+-*Contact*.
 
 I used a combination of bootstrap, css, w3-css, and other elements 
 
